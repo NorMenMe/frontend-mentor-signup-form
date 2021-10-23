@@ -7,23 +7,23 @@
   min-height: 50vh;
   margin: 10rem auto;
 
-  .box-lt {
+  .box-leftt {
     width: 100%;
     outline: 2px solid green;
   }
 
-  .box-rt {
+  .box-right {
     outline: 2px solid yellow;
 
-    .wrapper-ad {
+    .wrapper-advert {
       width: 100%;
 
-      .p-ad {
+      .advert__text {
         outline: 2px solid red;
         width: 60%;
         margin: 0 auto;
 
-        span {
+        .advert__span {
           font-weight: bold;
         }
       }
