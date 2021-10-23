@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 * {
   padding: 0%;
   margin: 0%;
@@ -6,8 +7,47 @@
 
 :root {
   font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.wrapper {
+  outline: 2px solid red;
+  width: 80%;
+  min-height: 50vh;
+  margin: 10rem auto;
+}
+.wrapper .box-lt {
+  width: 100%;
+  outline: 2px solid green;
+}
+.wrapper .box-rt {
+  outline: 2px solid yellow;
+}
+.wrapper .box-rt .wrapper-ad {
+  width: 100%;
+}
+.wrapper .box-rt .wrapper-ad .p-ad {
+  outline: 2px solid red;
+  width: 60%;
+  margin: 0 auto;
+}
+.wrapper .box-rt .wrapper-ad .p-ad span {
+  font-weight: bold;
+}
+.wrapper .box-rt .wrapper-main {
+  border-radius: 3px;
+  background-color: orange;
+  margin: 2rem auto;
+}
+.wrapper .box-rt .wrapper-main .container-form {
+  padding: 4%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .box-rt .wrapper-main .container-form .input-width {
+  width: 16rem;
+}
 
 /*# sourceMappingURL=main.css.map */
