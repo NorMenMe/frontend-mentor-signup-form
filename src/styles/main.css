@@ -11,6 +11,11 @@
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+  background: url("../images/bg-intro-mobile.png") center/cover;
+  background-color: #ff7a7a;
+}
+
 .wrapper {
   outline: 2px solid red;
   width: 80%;

@@ -1,6 +1,11 @@
 @import "./abstracts/_abstracts-dir";
 @import "./base/_base-dir";
 
+body {
+  background: url("../images/bg-intro-mobile.png") center / cover;
+  background-color: $primary-red;
+}
+
 .wrapper {
   outline: 2px solid red;
   width: 80%;

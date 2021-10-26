@@ -1,5 +1,4 @@
 next :
 
-- git checkout main, git pull, new -b
+- style box left
 
-- style box right submit button
