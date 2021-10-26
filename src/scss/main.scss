@@ -12,9 +12,22 @@ body {
   min-height: 50vh;
   margin: 10rem auto;
 
-  .box-leftt {
+  .box-left {
     width: 100%;
-    outline: 2px solid green;
+    // outline: 2px solid green;
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+
+    .box-left__title {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .box-left__text {
+      font-size: 9px;
+      color: #ffffff;
+    }
   }
 
   .box-right {

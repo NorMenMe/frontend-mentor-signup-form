@@ -22,9 +22,17 @@ body {
   min-height: 50vh;
   margin: 10rem auto;
 }
-.wrapper .box-leftt {
+.wrapper .box-left {
   width: 100%;
-  outline: 2px solid green;
+  text-align: center;
+}
+.wrapper .box-left .box-left__title {
+  color: #ffffff;
+  font-weight: 700;
+}
+.wrapper .box-left .box-left__text {
+  font-size: 9px;
+  color: #ffffff;
 }
 .wrapper .box-right {
   outline: 2px solid yellow;
