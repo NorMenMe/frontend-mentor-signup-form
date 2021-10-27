@@ -7,24 +7,40 @@ body {
 }
 
 .wrapper {
-  outline: 2px solid red;
+  // outline: 2px solid red;
   width: 80%;
   min-height: 50vh;
   margin: 10rem auto;
 
-  .box-leftt {
+  .box-left {
     width: 100%;
-    outline: 2px solid green;
+    // outline: 2px solid green;
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+
+    .box-left__title {
+      color: #ffffff;
+      font-weight: 700;
+    }
+
+    .box-left__text {
+      font-size: 9px;
+      color: #ffffff;
+    }
   }
 
   .box-right {
-    outline: 2px solid yellow;
+    // outline: 2px solid yellow;
 
     .wrapper-advert {
       width: 100%;
+      background-color: $primary-blue;
+      border-radius: 7px;
+      box-shadow: 0px 4px 0px rgba(97, 97, 97, 0.5);
 
       .advert__text {
-        outline: 2px solid red;
+        // outline: 2px solid red;
         width: 60%;
         margin: 0 auto;
 

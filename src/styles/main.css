@@ -17,23 +17,29 @@ body {
 }
 
 .wrapper {
-  outline: 2px solid red;
   width: 80%;
   min-height: 50vh;
   margin: 10rem auto;
 }
-.wrapper .box-leftt {
+.wrapper .box-left {
   width: 100%;
-  outline: 2px solid green;
+  text-align: center;
 }
-.wrapper .box-right {
-  outline: 2px solid yellow;
+.wrapper .box-left .box-left__title {
+  color: #ffffff;
+  font-weight: 700;
+}
+.wrapper .box-left .box-left__text {
+  font-size: 9px;
+  color: #ffffff;
 }
 .wrapper .box-right .wrapper-advert {
   width: 100%;
+  background-color: #6055a5;
+  border-radius: 7px;
+  box-shadow: 0px 4px 0px rgba(97, 97, 97, 0.5);
 }
 .wrapper .box-right .wrapper-advert .advert__text {
-  outline: 2px solid red;
   width: 60%;
   margin: 0 auto;
 }
