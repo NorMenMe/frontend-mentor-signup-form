@@ -1,4 +1,5 @@
 next :
 
-- style box left
-
+- new -b
+- style box right:
+  the form inputs

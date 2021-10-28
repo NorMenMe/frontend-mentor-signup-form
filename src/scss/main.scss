@@ -38,11 +38,13 @@ body {
       background-color: $primary-blue;
       border-radius: 7px;
       box-shadow: 0px 4px 0px rgba(97, 97, 97, 0.5);
+      color: #ffffff;
 
       .advert__text {
         // outline: 2px solid red;
-        width: 60%;
+        width: 66%;
         margin: 0 auto;
+        padding: 4%;
 
         .advert__span {
           font-weight: bold;
@@ -52,17 +54,17 @@ body {
 
     .wrapper-main {
       border-radius: 3px;
-      background-color: orange;
       margin: 2rem auto;
+      background-color: #ffffff;
+      border-radius: 5px;
+      padding: 7%;
 
       .container-form {
-        // width: 90%;
-        // margin: 2rem auto;
         padding: 4%;
         display: flex;
         align-items: center;
         flex-direction: column;
-        // align-items: center;
+        align-items: center;
 
         .input-width {
           width: 16rem;
