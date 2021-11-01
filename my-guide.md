@@ -2,4 +2,6 @@ next :
 
 - new -b
 - style box right:
-  the form inputs
+
+- next : box right
+- pseud-element ::placeholder : sea which properties it support
