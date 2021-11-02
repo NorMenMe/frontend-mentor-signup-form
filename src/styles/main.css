@@ -73,6 +73,10 @@ body {
 .wrapper .box-right .wrapper-main .container-form .input-width {
   max-width: 100%;
   box-sizing: border-box;
+  padding: 5%;
+  margin-bottom: 1rem;
+  border: 1px solid #8080803b;
+  border-radius: 6px;
 }
 .wrapper .box-right ::placeholder {
   color: black;
