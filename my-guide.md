@@ -5,4 +5,4 @@ next :
 - merge pull request
 
 - next : box right
-- pseud-element ::placeholder : sea which properties it support
+- style btn submit
