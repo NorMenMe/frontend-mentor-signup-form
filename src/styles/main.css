@@ -28,22 +28,30 @@ body {
 .wrapper .box-left .box-left__title {
   color: #ffffff;
   font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 2rem 0;
 }
 .wrapper .box-left .box-left__text {
-  font-size: 9px;
+  font-size: 13px;
   color: #ffffff;
+}
+.wrapper .box-right {
+  margin-top: 5rem;
 }
 .wrapper .box-right .wrapper-advert {
   width: 100%;
   background-color: #6055a5;
   border-radius: 7px;
-  box-shadow: 0px 4px 0px rgba(97, 97, 97, 0.5);
+  box-shadow: 0px 7px 0px rgba(97, 97, 97, 0.2);
   color: #ffffff;
+  padding: 1rem 0rem;
 }
 .wrapper .box-right .wrapper-advert .advert__text {
   width: 66%;
   margin: 0 auto;
   padding: 4%;
+  font-size: 12px;
 }
 .wrapper .box-right .wrapper-advert .advert__text .advert__span {
   font-weight: bold;
@@ -63,7 +71,13 @@ body {
   align-items: center;
 }
 .wrapper .box-right .wrapper-main .container-form .input-width {
-  width: 16rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+.wrapper .box-right ::placeholder {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
