@@ -72,7 +72,13 @@ body {
         flex-direction: column;
         align-items: center;
 
+        li {
+          list-style: none;
+          width: 100%;
+        }
+
         .input-common {
+          width: 100%;
           max-width: 100%;
           box-sizing: border-box;
           padding: 5%;
@@ -80,16 +86,18 @@ body {
           border: 1px solid #8080803b;
           border-radius: 6px;
         }
-      }
 
-      ::placeholder {
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
-      }
-    }
+        ::placeholder {
+          color: black;
+          font-size: 12px;
+          font-weight: bold;
+        }
 
-    .btn-submit {
+        .btn-submit {
+          width: 100%;
+          background-color: $primary-green;
+        }
+      }
     }
   }
 }

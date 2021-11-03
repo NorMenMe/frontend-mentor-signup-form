@@ -6,3 +6,4 @@ next :
 
 - next : box right
 - style btn submit
+- input width 100% but not following it when view port wider
