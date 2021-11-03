@@ -70,7 +70,12 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.wrapper .box-right .wrapper-main .container-form li {
+  list-style: none;
+  width: 100%;
+}
 .wrapper .box-right .wrapper-main .container-form .input-common {
+  width: 100%;
   max-width: 100%;
   box-sizing: border-box;
   padding: 5%;
@@ -82,6 +87,10 @@ body {
   color: black;
   font-size: 12px;
   font-weight: bold;
+}
+.wrapper .box-right .wrapper-main .container-form .btn-submit {
+  width: 100%;
+  background-color: #38cc8c;
 }
 
 /*# sourceMappingURL=main.css.map */
