@@ -80,16 +80,15 @@ body {
           border: 1px solid #8080803b;
           border-radius: 6px;
         }
-      }
+        ::placeholder {
+          color: black;
+          font-size: 12px;
+          font-weight: bold;
+        }
 
-      ::placeholder {
-        color: black;
-        font-size: 12px;
-        font-weight: bold;
+        .btn-submit {
+        }
       }
-    }
-
-    .btn-submit {
     }
   }
 }
