@@ -7,17 +7,29 @@ body {
 }
 
 .wrapper {
-  // outline: 2px solid red;
   width: 80%;
   min-height: 50vh;
   margin: 10rem auto;
 
+  @media (min-width: 1440px) {
+    display: flex;
+    flex-direction: row;
+  }
+
+  section {
+    @media (min-width: 1440px) {
+      width: 50%;
+    }
+  }
+
   .box-left {
     width: 100%;
-    // outline: 2px solid green;
-    // display: flex;
-    // flex-direction: column;
     text-align: center;
+
+    @media (min-width: 1440px) {
+      // text-align: center;
+      align-items: center;
+    }
 
     .box-left__title {
       color: #ffffff;
@@ -45,7 +57,6 @@ body {
       padding: 1rem 0rem;
 
       .advert__text {
-        // outline: 2px solid red;
         width: 66%;
         margin: 0 auto;
         padding: 4%;
@@ -65,12 +76,9 @@ body {
       padding: 7%;
 
       .container-form {
-        // outline: 2px solid red;
         padding: 4%;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        align-items: center;
+
+        @include center-column;
 
         li {
           list-style: none;
@@ -96,6 +104,27 @@ body {
         .btn-submit {
           width: 100%;
           background-color: $primary-green;
+          border-radius: 6px;
+          border: hsl(154, 59%, 51%);
+          box-shadow: inset 0px -3px #80808057;
+
+          .btn-submit__text {
+            padding: 7%;
+            color: white;
+            font-size: 12px;
+          }
+        }
+
+        .form-footer__text {
+          text-align: center;
+          color: $primary-grey;
+          line-height: 2rem;
+          margin-top: 1rem;
+
+          span {
+            color: $primary-red;
+            font-weight: bold;
+          }
         }
       }
     }
