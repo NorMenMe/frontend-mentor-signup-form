@@ -30,6 +30,8 @@ body {
 @media (min-width: 1440px) {
   .wrapper section {
     width: 50%;
+    display: flex;
+    align-items: center;
   }
 }
 .wrapper .box-left {
@@ -48,9 +50,23 @@ body {
   line-height: 30px;
   margin: 2rem 0;
 }
+@media (min-width: 1440px) {
+  .wrapper .box-left .box-left__title {
+    width: 70%;
+    font-size: 44px;
+    line-height: 5rem;
+  }
+}
 .wrapper .box-left .box-left__text {
   font-size: 13px;
   color: #ffffff;
+}
+@media (min-width: 1440px) {
+  .wrapper .box-left .box-left__text {
+    width: 78%;
+    padding: 0 8%;
+    line-break: anywhere;
+  }
 }
 .wrapper .box-right {
   margin-top: 5rem;

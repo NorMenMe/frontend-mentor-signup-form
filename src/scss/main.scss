@@ -19,6 +19,8 @@ body {
   section {
     @media (min-width: 1440px) {
       width: 50%;
+      display: flex;
+      align-items: center;
     }
   }
 
@@ -37,11 +39,23 @@ body {
       font-size: 25px;
       line-height: 30px;
       margin: 2rem 0;
+
+      @media (min-width: 1440px) {
+        width: 70%;
+        font-size: 44px;
+        line-height: 5rem;
+      }
     }
 
     .box-left__text {
       font-size: 13px;
       color: #ffffff;
+
+      @media (min-width: 1440px) {
+        width: 78%;
+        padding: 0 8%;
+        line-break: anywhere;
+      }
     }
   }
 
