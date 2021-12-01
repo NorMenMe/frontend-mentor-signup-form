@@ -61,7 +61,7 @@ body {
 
   .box-right {
     margin-top: 5rem;
-
+    width: 100%;
     .wrapper-advert {
       width: 100%;
       background-color: $primary-blue;
@@ -94,19 +94,36 @@ body {
 
         @include center-column;
 
-        li {
-          list-style: none;
+        section {
           width: 100%;
+
+          .wrapper-input-icon {
+            @include row-center;
+            justify-content: space-between;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            padding: 5%;
+            margin-bottom: 1rem;
+            border: 1px solid #8080803b;
+            border-radius: 6px;
+          }
+
+          .container-message {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            color: red;
+            margin-top: -0.5rem;
+            padding-bottom: 3%;
+
+            .error-message {
+            }
+          }
         }
 
         .input-common {
-          width: 100%;
-          max-width: 100%;
-          box-sizing: border-box;
-          padding: 5%;
-          margin-bottom: 1rem;
-          border: 1px solid #8080803b;
-          border-radius: 6px;
+          border: none;
         }
 
         ::placeholder {

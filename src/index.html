@@ -11,6 +11,7 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/main.css" />
 
     <title>Frontend Mentor | Intro component with sign up form</title>
@@ -44,54 +45,68 @@
             </div>
           </header>
           <main class="wrapper-main">
-            <ul class="container-form">
-              <li>
-                <input
-                  type="text"
-                  id="name"
-                  placeholder="First Name"
-                  class="input-common"
-                />
-              </li>
+            <form class="container-form">
+              <section>
+                <div class="wrapper-input-icon">
+                  <input
+                    type="text"
+                    id="first-name"
+                    placeholder="First Name"
+                    class="input-common"
+                    value=''
+                  />
+        <i class="fas fa-exclamation-circle fa-2x"></i>
 
-              <li>
+                </div>
+                <div class="container-message"><span class="error-message"></span></div>
+              </section>
+
+              <section>
                 <input
                   type="text"
                   id="last-name"
                   class="input-common"
                   placeholder="Last Name"
+                  value=''
                 />
-              </li>
+                <div class="container-message"><span class="error-message"></span></div>
+              </section>
 
-              <li>
+              <section>
                 <input
                   type="text"
                   id="email"
                   placeholder="Email Address"
                   class="input-common"
+                  value=''
                 />
-              </li>
+                <div class="container-message"><span class="error-message"></span></div>
+              </section>
 
-              <li>
+              <section>
                 <input
                   type="text"
                   id="password"
                   placeholder="Password"
                   class="input-common"
+                  value=''
                 />
-              </li>
+                <div class="container-message"><span class="error-message"></span></div>
+              </section>
 
               <button type="submit" class="btn-submit">
                 <p class="btn-submit__text">CLAIM YOUR FREE TRIAL</p>
               </button>
-              <text class="form-footer">
-                <p class="form-footer__text">
-                  By clicking the button, you are agreeing to our<span
-                    >Terms and Services</span
-                  >
-                </p>
-              </text>
             </ul>
+            <text class="form-footer">
+
+              <p class="form-footer__text">
+                By clicking the button, you are agreeing to our<span
+                  >Terms and Services</span>
+                
+
+              </p>
+            </text>
           </main>
         </div>
       </section>
