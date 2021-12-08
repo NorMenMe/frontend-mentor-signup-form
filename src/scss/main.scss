@@ -6,6 +6,10 @@ body {
   background-color: $primary-red;
 }
 
+// * :focus {
+//   outline: none;
+// }
+
 .wrapper {
   width: 80%;
   min-height: 50vh;
@@ -103,10 +107,30 @@ body {
             width: 100%;
             max-width: 100%;
             box-sizing: border-box;
-            padding: 5%;
+            // padding: 0 5% 0 5%;
             margin-bottom: 1rem;
-            border: 1px solid #8080803b;
+            border: 2px solid #8080803b;
             border-radius: 6px;
+
+            .input-common {
+              width: 100%;
+              border: none;
+              line-height: 5rem;
+              border: none;
+              padding: 2%;
+            }
+
+            .input-common:focus {
+              border: 2px solid rgba(54, 54, 54, 0.5);
+              outline: none;
+            }
+
+            .alert {
+              display: none;
+              margin-right: 2rem;
+              filter: invert(13%) sepia(92%) saturate(7266%) hue-rotate(5deg)
+                brightness(97%) contrast(114%);
+            }
           }
 
           .container-message {
@@ -114,16 +138,13 @@ body {
             display: flex;
             justify-content: flex-end;
             color: red;
+            // color: #363636;
             margin-top: -0.5rem;
             padding-bottom: 3%;
 
             .error-message {
             }
           }
-        }
-
-        .input-common {
-          border: none;
         }
 
         ::placeholder {
@@ -143,6 +164,7 @@ body {
             padding: 7%;
             color: white;
             font-size: 12px;
+            cursor: pointer;
           }
         }
 
