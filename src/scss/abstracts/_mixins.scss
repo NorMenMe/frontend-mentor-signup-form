@@ -9,3 +9,8 @@
   flex-direction: row;
   align-items: center;
 }
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}

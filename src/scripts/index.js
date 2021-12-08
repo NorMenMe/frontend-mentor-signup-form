@@ -1,15 +1,3 @@
-// to do :
-
-// parent of input :focus outline
-// media query
-
-// issue: onClick
-
-// next :
-// increase placeholder font
-// after submit border of input.parentElement on focus
-// refactor the logic of the error message
-
 const fields = ["first-name", "last-name", "email", "password"];
 
 const form = document.querySelector(".container-form");

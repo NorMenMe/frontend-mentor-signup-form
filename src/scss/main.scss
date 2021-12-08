@@ -6,10 +6,6 @@ body {
   background-color: $primary-red;
 }
 
-// * :focus {
-//   outline: none;
-// }
-
 .wrapper {
   width: 80%;
   min-height: 50vh;
@@ -33,7 +29,6 @@ body {
     text-align: center;
 
     @media (min-width: 1440px) {
-      // text-align: center;
       align-items: center;
     }
 
@@ -101,13 +96,16 @@ body {
         section {
           width: 100%;
 
+          @media (min-width: 1440px) {
+            @include column;
+          }
+
           .wrapper-input-icon {
             @include row-center;
             justify-content: space-between;
             width: 100%;
             max-width: 100%;
             box-sizing: border-box;
-            // padding: 0 5% 0 5%;
             margin-bottom: 1rem;
             border: 2px solid #8080803b;
             border-radius: 6px;
@@ -138,7 +136,6 @@ body {
             display: flex;
             justify-content: flex-end;
             color: red;
-            // color: #363636;
             margin-top: -0.5rem;
             padding-bottom: 3%;
 
