@@ -105,6 +105,12 @@ body {
 .wrapper .box-right .wrapper-main .container-form section {
   width: 100%;
 }
+@media (min-width: 1440px) {
+  .wrapper .box-right .wrapper-main .container-form section {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .wrapper .box-right .wrapper-main .container-form section .wrapper-input-icon {
   display: flex;
   flex-direction: row;
